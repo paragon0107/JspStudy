@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(198, 238, 188);
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    border: 2px solid;
+    display: inline-block;
+    padding: 20px 80px 20px 80px;
+    margin-top: 10%;
+}
+.welcome,.counting_s,.counting_b{
+    
+    text-align: center;
+}
+.counting_b input{
+    font-size: 30px;
+}
+.startB{
+    text-align: center;
+}
+.startB{
+    margin-top: 20px;
+}
+.secondP{
+    display: none;
+}
+.start_s{
+    text-align: center;
+    margin-top: 15%;
+}
+.number > h3{
+    text-align: center;
+    margin: 40px 0 ;
+    font-size: 50px ;
+
+}
+#noWhiteSpace{
+    font-size: 0px;
+}
+.secondPb{
+    margin-top: 20px;
+    display: none;
+    width: 50%;
+    text-align: center;
+}
+.b1 button{
+    position: relative;
+    left: 40%;
+    width: 60px;
+}
+.b2 button{
+    position: relative;
+    right: 40%;
+    width: 60px;
+}
+.thirdP{
+    display: none;
+    text-align: center;
+}
+.order{
+    margin-top: 10%;
+    font-size: 40px ;
+}
+.pWord{
+    
+    font-size: 30px;
+}
+#iWord{
+    margin-top: 20px;
+    font-size: 35px;
+}
+.submit{
+    margin-top: 25px;
+    font-size: 20px;
+}
+#end{
+    position: relative;
+    margin-top: 80px;
+    left: 15%;
+}

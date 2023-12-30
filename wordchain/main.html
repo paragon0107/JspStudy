@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>쿵쿵따</title>
+</head>
+<body>
+    <div class="title firstP"><h1>쿵쿵따</h1></div>
+    <h2 class="welcome firstP">쿵쿵따에 오신걸 환영합니다.</h2>
+    <h3 class="counting_s firstP">참가인원수를 입력후 시작버튼을 눌러주세요.</h3>
+    <div class="counting_b firstP"><input id="numI" type="number"></div>
+    <div class="startB firstP"><button>시작</button></div>
+
+    <div class="start_s secondP"><h2>입력한 인원수가 맞다면 게임을 시작합니다.</h2></div>
+    <div class="number secondP"><h3 id="numT"></h3></div>
+    <div id="noWhiteSpace">
+        <div class="secondPb b1"><button>네</button></div>
+        <div class="secondPb b2"><button>아니오</button></div>
+    </div>
+
+    <div class="order thirdP"><h2><span>1</span>번째 참가자</h2></div>
+    <div  class="thirdP pWord">제시어: <span id="word"></span></div>
+    <div class="thirdP"><input id="iWord"type="text"></div>
+    <div class="thirdP"><button class="submit">입력</button></div>
+    
+    <div class="thirdP"><button id="end">종료</button></div>
+</body>
+<script src="main.js"></script>
+</html>

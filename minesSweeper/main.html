@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <input placeholder="가로줄" id="row" size="5">
+        <input placeholder="세로줄" id="cell" size="5">
+        <input placeholder="지뢰" id="mine" size="5">
+        <button>생성</button>
+    </form>
+    <table id="table">
+        <tbody></tbody>
+    </table>
+    <div id="timer">0초</div>
+    <div id="result"></div>
+</body>
+<script src="function.js"></script>
+</html>
+
+
+
+<!-- 
+깃발을 변수로 선언하여 바꿔주는게 아니라 클래스를 추가하여 바꿔주는 형식으로 해보기
+그렇게 하면 깃발을 꽂을때 조건문을 1번정도 줄일 수 있음
+-> 깃발도 데이터가 필요하기 때문에 이런식으로 클래스만 추가하여 보이는 형식만 바꾼다면
+깃발이 세워져 있을때 클릭금지 같은 것들을 하지 ㅇ못함. -->
