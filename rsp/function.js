@@ -7,7 +7,7 @@ const $score = document.querySelector("#score");
 const URL_IMG = "./rsp.png";
 $computer.style.background = `url(${URL_IMG}) 0 0`;
 $computer.style.backgroundSize = "auto 200px";
-
+dsdsadsa
 const rspX = {
     scissors: "0px",
     rock: "-220px",
